@@ -1,0 +1,9 @@
+n=float(input("enter the year:"))
+if(n<=0):
+   print("enter the year greater than zero")
+else:
+         r=n%4
+         if(r==0):
+             print("leap year\n","laep year is",n+4)
+         else:
+             print("non leap year\n","next leap year is",n-r)
