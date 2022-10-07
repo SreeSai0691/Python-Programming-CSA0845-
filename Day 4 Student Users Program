@@ -1,0 +1,14 @@
+n=int(input("enter total number of users"))
+if(n>0):
+    m=int(input("enter the staff users"))
+    if(n==m):
+        print("student user : 0")
+    elif(n<m):
+        print("invalid and there is no student users")
+    else:
+        s=n-(m+m//3)
+        print("student user:",s)
+elif(n==0):
+    print("enter the total user greater than 0")
+else:
+    print("enter the total user greater than 0")
